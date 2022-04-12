@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fitness", {data:[{posts:[]}],fetch:{},mutations:[]});
