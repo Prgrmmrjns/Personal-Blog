@@ -14,8 +14,7 @@
             <ButtonMain v-if="!$fire.auth.currentUser" buttonContent="SignUp" link= "signup"/>
             <ButtonMain v-if="!$fire.auth.currentUser" buttonContent="SignIn" link= "signin"/>
             <ButtonMain v-else buttonContent="SignOut" link= "signout"/>
-        </div>
-            
+        </div>  
     </div>
 </template>
 

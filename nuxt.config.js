@@ -53,6 +53,7 @@ export default {
       measurementId: "G-19D637RG6R"
     },
     services: {
+      firestore: true,
       auth: {
         persistence: 'local', // default
         initialize: {

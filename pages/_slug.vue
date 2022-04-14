@@ -1,6 +1,5 @@
 <template>
 <div>
-  <NavBar/>
   <div class="grid place-items-center mt-24">
     <div class="w-2/3 flex space-x-8 bg-violet-500 p-8 rounded-2xl justify-between">
         <div class="space-y-8 text-xl font-semibold">
@@ -41,7 +40,6 @@
       <h2 class="text-4xl font-bold">Comments</h2>
 </div>
   </div>
-  <Footer/>
 </div>
   
 </template>

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar/>
     <v-row align="center" justify="center">
     <v-col cols="12" sm="8" md="4" align="center">
       <v-card width="500" class="elevation-4 text-left mt-24" shaped color="yellow">
@@ -8,6 +7,13 @@
         <v-card-subtitle>Login to your dashboard</v-card-subtitle>
         <v-card-text>
           <v-form>
+            <v-text-field
+              label="User name"
+              name="username"
+              prepend-icon="mdi-account"
+              type="text"
+              v-model="auth.username"
+            ></v-text-field>
             <v-text-field
               label="Login"
               name="login"
@@ -59,6 +65,7 @@ export default {
       snackbar: false,
       snackbarText: 'No error message',
       auth: {
+        username: '',
         email: '',
         password: ''
       }

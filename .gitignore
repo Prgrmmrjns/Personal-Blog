@@ -85,3 +85,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Firebase SDK
+educat-66f67-firebase-adminsdk-s6hu6-b870731a05.json

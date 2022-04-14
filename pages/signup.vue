@@ -1,6 +1,5 @@
 <template>
 <div>
-    <NavBar/>
     <v-row align="center" justify="center">
     <v-col cols="12" sm="8" md="4" align="center">
       <v-card width="500" class="elevation-4 text-left mt-24" shaped color="yellow">

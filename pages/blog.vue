@@ -1,6 +1,5 @@
 <template>
 <div>
-  <NavBar/>
   <div class="grid place-items-center">
     <div class="grid place-items-center">
       <h1 class="m-16 text-4xl">Domains</h1>
@@ -42,8 +41,6 @@
         </div>
       </li>
       </ul>
-  <Footer/>
-    
   </div>
 </div>
 

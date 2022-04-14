@@ -1,6 +1,5 @@
 <template>
 <div>
-      <NavBar/>
       <div class="w-full bg-cover bg-center" style="height:32rem; background-image: url(https://wallpaperaccess.com/full/1561054.jpg);">
         <div class="flex items-center justify-center h-full w-full bg-gray-700 bg-opacity-40">
             <div class="text-center">
@@ -9,8 +8,7 @@
             </div>
         </div>
     </div>
-        <Carousel/>
-        <Footer/>
+        <Carousel class="mt-60"/>
 </div>
 
   

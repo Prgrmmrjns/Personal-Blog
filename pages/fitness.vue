@@ -1,6 +1,5 @@
 <template>
 <div>
-    <NavBar/>
     <div class="grid place-items-center">
     <div class="w-full bg-cover bg-center" style="height:32rem; background-image: url(https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
         <div class="flex items-center justify-center h-full w-full bg-gray-700 bg-opacity-40">
@@ -20,7 +19,6 @@
     </li>
   </ul>
     </div>
-    <Footer/>
 </div>
     
 </template>
